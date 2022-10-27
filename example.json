@@ -1,0 +1,31 @@
+[
+    {
+        "departure": "Barcelona",
+        "arrival": "Gerona Airport",
+        "transportation": "airport bus"
+    },
+    {
+        "departure": "Gerona Airport",
+        "arrival": "Stockholm",
+        "transportation": "flight",
+        "transportationIdentification": "SK455",
+        "seat": "3A",
+        "gate": "45B",
+        "luggageTag": "344"
+    },
+    {
+        "departure": "Madrid",
+        "arrival": "Barcelona",
+        "transportation": "train",
+        "transportationIdentification": "78A",
+        "seat": "45B"
+    },
+    {
+        "departure": "Stockholm",
+        "arrival": "New York JFK",
+        "transportation": "flight",
+        "transportationIdentification": "SK22",
+        "seat": "7B",
+        "gate": "22"
+    }
+]
