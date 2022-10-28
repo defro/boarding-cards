@@ -2,11 +2,11 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$jsonFile = __DIR__ . '/example.json';
-//$jsonFile = __DIR__ . '/multiple-departure.json';
-//$jsonFile = __DIR__ . '/invalid.json';
-//$jsonFile = __DIR__ . '/empty.json';
-$json = file_get_contents($jsonFile);
+$jsonFile = 'example.json';
+//$jsonFile = 'multiple-departure.json';
+//$jsonFile = 'invalid.json';
+//$jsonFile = 'empty.json';
+$json = file_get_contents(__DIR__ . '/json/' . $jsonFile);
 
 try {
     $trip = new \App\Service\Trip($json);
